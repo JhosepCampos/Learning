@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Cuaderno de Inglés</string>
+    <string name="titulo_inicio">Mi Cuaderno de Inglés</string>
+    <string name="subtitulo_inicio">Aprende y registra tu vocabulario</string>
+
+    <!-- Categorías -->
+    <string name="categoria_todos">Todo el Vocabulario</string>
+    <string name="categoria_verbos">Verbos</string>
+    <string name="categoria_adjetivos">Adjetivos</string>
+    <string name="categoria_pronombres">Pronombres</string>
+    <string name="categoria_pronombres_personales">Pronombres Personales</string>
+    <string name="categoria_otra">Otras Categorías</string>
+
+    <!-- Descripciones de categorías para inicio -->
+    <string name="desc_verbos">Acciones, tiempos y verbos regulares/irregulares</string>
+    <string name="desc_adjetivos">Cualidades, descripciones y características</string>
+    <string name="desc_pronombres">Demostrativos, posesivos e indefinidos</string>
+    <string name="desc_pronombres_personales">I, you, he, she, it, we, they y objetos</string>
+
+    <!-- Autenticación -->
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="error_correo_vacio">Por favor introduce tu correo electrónico</string>
+    <string name="error_contrasena_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_contrasenas_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="error_autenticacion">Error en la autenticación</string>
+    <string name="sesion_iniciada_exito">Sesión iniciada con éxito</string>
+    <string name="registro_exito">Usuario registrado con éxito</string>
+
+    <!-- Sincronización y Red -->
+    <string name="estado_en_linea">En línea • Sincronizado</string>
+    <string name="estado_sin_conexion">Sin conexión • Modo SQLite Local</string>
+    <string name="sincronizando">Sincronizando con Firebase…</string>
+    <string name="sincronizar_ahora">Sincronizar ahora</string>
+    <string name="sincronizacion_completada">Datos sincronizados con éxito</string>
+    <string name="sincronizacion_fallida">No se pudo sincronizar en este momento</string>
+    <string name="datos_pendientes_sincronizar">Tienes cambios pendientes de sincronizar</string>
+
+    <!-- Formulario Palabra / Cuaderno -->
+    <string name="agregar_palabra">Nueva Palabra</string>
+    <string name="editar_palabra">Editar Palabra</string>
+    <string name="guardar">Guardar en Cuaderno</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="confirmar_eliminar_titulo">¿Eliminar palabra?</string>
+    <string name="confirmar_eliminar_mensaje">Esta palabra será eliminada de tu cuaderno local y de Firebase al sincronizar.</string>
+    <string name="campo_texto_ingles">Texto en Inglés</string>
+    <string name="campo_texto_ingles_ayuda">Ejemplo: Apple, Run, Beautiful</string>
+    <string name="campo_pronunciacion_fonetica">Pronunciación Fonética</string>
+    <string name="campo_pronunciacion_fonetica_ayuda">Ejemplo: [ˈæp.əl], [rʌn], [ˈbjuː.tɪ.fəl]</string>
+    <string name="campo_traduccion">Traducción al Español</string>
+    <string name="campo_traduccion_ayuda">Ejemplo: Manzana, Correr, Hermoso</string>
+    <string name="campo_categoria">Seleccionar Categoría</string>
+    <string name="campo_ejemplo">Ejemplo de uso u oraciones</string>
+    <string name="campo_ejemplo_ayuda">Ejemplo: She is eating a red apple</string>
+    <string name="error_campos_obligatorios">El texto en inglés y la traducción son obligatorios</string>
+    <string name="palabra_guardada_exito">Palabra guardada en tu cuaderno</string>
+    <string name="palabra_actualizada_exito">Palabra actualizada correctamente</string>
+    <string name="palabra_eliminada_exito">Palabra eliminada</string>
+
+    <!-- Lista de Vocabulario -->
+    <string name="buscar_en_cuaderno">Buscar en tu cuaderno…</string>
+    <string name="total_registros">%1$d palabras registradas</string>
+    <string name="sin_palabras_titulo">Tu cuaderno está vacío</string>
+    <string name="sin_palabras_descripcion">Aún no has agregado palabras en esta sección. Presiona el botón + para empezar a escribir tu propio vocabulario.</string>
+    <string name="sin_resultados_busqueda">No se encontraron palabras para la búsqueda</string>
+    <string name="reproducir_audio">Escuchar pronunciación</string>
+    <string name="etiqueta_sincronizado">Sincronizado</string>
+    <string name="etiqueta_pendiente">Pendiente de sincronizar</string>
+
+    <!-- General / Navegación -->
+    <string name="boton_volver">Volver</string>
+    <string name="menu_perfil">Mi Perfil</string>
+    <string name="usuario_conectado">Conectado como: %1$s</string>
+    <string name="usuario_anonimo">Modo Cuaderno Local</string>
+    <string name="boton_ir_a_categoria">Ver palabras</string>
+    <string name="seccion_categorias">Categorías de Aprendizaje</string>
+    <string name="resumen_progreso">Tu Progreso de Aprendizaje</string>
+    <string name="seccion_comunicacion">Comunicación Rápida</string>
+    <string name="categoria_oraciones">Mis Oraciones</string>
+    <string name="desc_oraciones">Frases con fonética y traducción para comunicarte rápido</string>
+
+    <!-- Oraciones y Comunicación Rápida -->
+    <string name="titulo_oraciones">Oraciones de Comunicación</string>
+    <string name="subtitulo_oraciones">Frases útiles formadas por ti para hablar rápido</string>
+    <string name="seccion_oraciones_inicio">Comunicación Rápida</string>
+    <string name="desc_oraciones_inicio">Frases y oraciones con fonética para expresarte rápidamente</string>
+    <string name="buscar_oraciones">Buscar oración en inglés o traducción…</string>
+    <string name="total_oraciones">%1$d oraciones guardadas</string>
+    <string name="sin_oraciones_titulo">No tienes oraciones aún</string>
+    <string name="sin_oraciones_descripcion">Crea oraciones de uso cotidiano con su fonética y traducción para tenerlas siempre a mano al comunicarte.</string>
+    <string name="agregar_oracion">Nueva Oración</string>
+    <string name="editar_oracion">Editar Oración</string>
+    <string name="guardar_oracion">Guardar Oración</string>
+    <string name="campo_oracion_ingles">Oración en Inglés</string>
+    <string name="campo_oracion_ingles_ayuda">Ejemplo: Could you please help me find the gate?</string>
+    <string name="campo_oracion_fonetica">Pronunciación Fonética</string>
+    <string name="campo_oracion_fonetica_ayuda">Ejemplo: [kʊd juː pliːz hɛlp miː faɪnd ðə geɪt]</string>
+    <string name="campo_oracion_traduccion">Traducción al Español</string>
+    <string name="campo_oracion_traduccion_ayuda">Ejemplo: ¿Podría ayudarme a encontrar la puerta de embarque?</string>
+    <string name="campo_oracion_contexto">Contexto de la Oración</string>
+    <string name="contexto_todos">Todos</string>
+    <string name="contexto_cotidiano">Cotidiano</string>
+    <string name="contexto_viajes">Viajes</string>
+    <string name="contexto_trabajo">Trabajo</string>
+    <string name="contexto_restaurante">Restaurante</string>
+    <string name="contexto_saludos">Saludos</string>
+    <string name="contexto_emergencias">Emergencias</string>
+    <string name="oracion_copiada">Oración copiada al portapapeles</string>
+    <string name="boton_copiar">Copiar texto</string>
+    <string name="confirmar_eliminar_oracion_titulo">¿Eliminar oración?</string>
+    <string name="confirmar_eliminar_oracion_mensaje">Esta oración será eliminada de tu cuaderno local y de Firebase.</string>
+    <string name="oracion_guardada_exito">Oración guardada en tu cuaderno</string>
+    <string name="oracion_eliminada_exito">Oración eliminada</string>
+    <string name="palabras_sugeridas_titulo">Tus palabras aprendidas (toca para insertar)</string>
+    <string name="palabras_sugeridas_vacio">Agrega verbos, adjetivos o pronombres para ver sugerencias aquí</string>
+</resources>

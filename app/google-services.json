@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1055297078213",
+    "project_id": "learning-e9055",
+    "storage_bucket": "learning-e9055.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055297078213:android:66436f38a67257ad4bc1ac",
+        "android_client_info": {
+          "package_name": "com.cibertec.learning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeeo6BJNKA0uy1o1fdtrkDb6qAla4cxJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
